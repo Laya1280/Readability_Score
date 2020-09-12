@@ -3,11 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        if(scanner.nextLine().length() <= 100){
-            System.out.println("EASY");
-        }
-        else{
-            System.out.println("HARD");
-        }
+        System.out.println(scanner.nextLine().length() <= 100 ? "EASY" : "HARD");
+
     }
 }
